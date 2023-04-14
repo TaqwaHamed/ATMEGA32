@@ -1,0 +1,47 @@
+/*
+ * TIMER0_cfg.h
+ *
+ * Created: 2/28/2023 12:58:52 PM
+ *  Author: TAQWA HAMED
+ */ 
+
+
+#ifndef TIMER0_CFG_H_
+#define TIMER0_CFG_H_
+
+/*
+ * NORMAL , COMPARE_MATCH
+ */
+
+#define TIMER0_MODE_OPERATION	COMPARE_MATCH
+/*
+ * DISABLE , ENABLE
+ */
+#define TIMER0_OVERFLOW_INTERRUPT	ENABLE
+
+/*
+ * DISABLE , ENABLE
+ */
+
+#define TIMER0_COMPARE_MATCH_INTERRUPT	ENABLE
+
+
+/*
+ * ENABLE
+ * DISABLE
+ */
+
+#define TIMER0_ENABLE_DISABLE	ENABLE
+/*
+ * TIM0_CLK
+ * TIM0_CLK_8
+ * TIM0_CLK_64
+ * TIM0_CLK_256
+ * TIM0_CLK_1024
+ */
+#define TIMER0_CLK_PRESCALLER	TIM0_CLK_64
+
+
+
+
+#endif /* TIMER0_CFG_H_ */
